@@ -1,4 +1,4 @@
-# aws-iot-raspian-provisioner
+# aws-iot-raspbian-provisioner
 
 Provisions an AWS IoT Thing, Certificate, and Policy using the `templates/iot-policy.template` file. 
 
