@@ -1,0 +1,16 @@
+[Unit]
+Description=AWS IoT
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/var/run/awsiot.pid
+Restart=always
+ExecStart=/home/pi/aws-iot/start.sh
+User=pi
+WorkingDirectory=/home/pi/aws-iot/
+StandardOutput=inherit
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target

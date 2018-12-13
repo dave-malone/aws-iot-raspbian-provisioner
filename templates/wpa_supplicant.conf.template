@@ -1,0 +1,17 @@
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=US
+
+network={
+    ssid="davessg9"
+    psk="egbt0983"
+    key_mgmt=WPA-PSK
+    id_str="mobile"
+}
+
+network={
+    ssid="Frontier8240"
+    psk="3200270064"
+    key_mgmt=WPA-PSK
+    id_str="home"
+}
